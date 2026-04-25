@@ -1,1 +1,0 @@
-import{bE as t,aM as r,az as n,q as o,z as c}from"./index-e2b69db6.js";const s={};function a(u,_){const e=r("Products");return n(),o("div",null,[c(e,{type:"furniture",title:"furniture"})])}const i=t(s,[["render",a]]);export{i as default};
