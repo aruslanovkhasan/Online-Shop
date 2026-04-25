@@ -1,0 +1,1 @@
+import{bE as o,aM as r,az as c,q as t,z as s}from"./index-e2b69db6.js";const n={};function a(_,i){const e=r("Products");return c(),t("div",null,[s(e,{type:"groceries",title:"groceries"})])}const d=o(n,[["render",a]]);export{d as default};
