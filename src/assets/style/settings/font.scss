@@ -1,0 +1,139 @@
+$Roboto: ('Roboto-Bold', 700),
+         ('Roboto-Medium', 500),
+         ('Roboto-Regular', 400);
+    
+@each $name,$weigth in $Roboto {
+  @font-face {
+    font-family: 'Roboto';
+    src: url('@/assets/fonts/Roboto/#{$name}.ttf');
+    font-weight: $weigth;
+  }
+}
+$Inter: ('Inter-Bold', 700),
+        ('Inter-Medium', 500),
+        ('Inter-Regular', 400);
+    
+@each $name,$weigth in $Inter {
+  @font-face {
+    font-family: 'Inter';
+    src: url('@/assets/fonts/Inter/#{$name}.ttf');
+    font-weight: $weigth;
+  }
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/webfonts/fa-light-300.woff2');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/webfonts/fa-solid-900.woff2');
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/webfonts/fa-brands-400.woff2');
+  font-weight: 400;
+}
+.fal{
+  font-family: 'FontAwesome';
+  font-weight: 300;
+}
+.fas{
+  font-family: 'FontAwesome';
+  font-weight: 900;
+}
+.fab{
+  font-family: 'FontAwesome';
+  font-weight: 400;
+}
+.fa-cart-plus{
+  &::before{  
+    content: '\f217';
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+  }
+}
+.nav__heart{
+  &::before{  
+    content: '\f004';
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+  }
+}
+.shopify{
+  &::before{  
+    content: '\e057';
+    font-style: normal;
+    font-size: 60px;
+    color: black;
+  }
+}
+.heart{
+  &::before{  
+    content: '\f004';
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+  }
+}
+.nav__basket{
+  &::before{
+    content: '\f290';
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+  }
+}
+.angle{
+  &::before{
+    content: '\f106';
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+  }
+}
+.sliders{
+  &::before{
+    content: '\f1de';
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+  }
+}
+.fa-plus{
+  &::before{
+    content: '\2b';
+    font-style: normal;
+    font-size: 25px;
+    color: green;
+  }
+}
+.fa-minus{
+  &::before{
+    content: '\f068';
+    font-style: normal;
+    font-size: 25px;
+    color: red;
+  }
+}
+.fa-trash-can{
+  &::before{
+    content: '\f2ed';
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+  }
+}
+.fa-check{
+  &::before{
+    content: '\f00c';
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    opacity: 0;
+    transition: opacity .3s;
+  }
+}
